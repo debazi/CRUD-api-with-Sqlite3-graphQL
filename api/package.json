@@ -1,0 +1,20 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Création d'un API avec graphQL",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node_modules/.bin/nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "marc-debazi",
+  "license": "free",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.1",
+    "nodemon": "^2.0.8",
+    "pg": "^8.6.0",
+    "sqlite3": "^5.0.2"
+  }
+}
